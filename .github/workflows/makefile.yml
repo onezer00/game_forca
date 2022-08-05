@@ -1,28 +1,28 @@
-name: Makefile CI
-
+name: Continuous Integration
 on:
   push:
-    branches: [ "main" ]
+    branches:
+      - main
   pull_request:
-    branches: [ "main" ]
-
+    branches:
+      - main
 jobs:
-  build:
+  lint_and_test:
     runs-on: ubuntu-latest
-
     steps:
+      
       - name: Set up python
         uses: actions/setup-python@v2
         with:
           python-version: "3.10"
 
       - name: Checkout repository
-        uses: actions/checkout@v3
-      
+        uses: actions/checkout@v2
+
       - name: Installing Poetry
-        run: snok/install-poetry@v1
+        uses: snok/install-poetry@v1
         with:
-          virtualenvs-in-path: true
+          virtualenvs-in-project: true
 
       - name: Load cached venv
         id: cached-poetry-dependencies
@@ -30,13 +30,16 @@ jobs:
         with:
           path: .venv
           key: venv-${{ hashFiles('**/poetry.lock') }}
-        
+
       - name: Install dependencies
         if: steps.cached-poetry-dependencies.outputs.cache-hit != 'true'
         run: poetry install --no-interaction
-      
+
       - name: Running Lint
         run: poetry run make lint
-        
-      - name: Running Sec Test
+
+      - name: Running Tests
         run: poetry run make test
+
+      - name: Running Security Tests
+        run: poetry run make sec
