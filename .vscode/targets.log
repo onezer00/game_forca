@@ -1,0 +1,375 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.81
+# Copyright (C) 2006  Free Software Foundation, Inc.
+# This is free software; see the source for copying conditions.
+# There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.
+
+# This program built for i386-pc-mingw32
+
+# Make data base, printed on Fri Aug 05 16:47:03 2022
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# environment
+WSLENV = WT_SESSION::WT_PROFILE_ID
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# makefile
+MAKEFLAGS = Rrqp
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+HOMEDRIVE = C:
+# automatic
+@F = $(notdir $@)
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# makefile
+CURDIR := c:/Users/caimb/Documents/CURSO ALURA/jogo_forca_project
+# default
+SHELL := sh.exe
+# environment
+WINDIR = C:\WINDOWS
+# environment
+VSCODE_NLS_CONFIG = {"locale":"pt-br","availableLanguages":{"*":"pt-br"},"_languagePackId":"dc7ba51c4efcfec965eaa07de065afd6.pt-br","_translationsConfigFile":"C:\\Users\\caimb\\AppData\\Roaming\\Code\\clp\\dc7ba51c4efcfec965eaa07de065afd6.pt-br\\tcf.json","_cacheRoot":"C:\\Users\\caimb\\AppData\\Roaming\\Code\\clp\\dc7ba51c4efcfec965eaa07de065afd6.pt-br","_resolvedLanguagePackCoreLocation":"C:\\Users\\caimb\\AppData\\Roaming\\Code\\clp\\dc7ba51c4efcfec965eaa07de065afd6.pt-br\\3b889b090b5ad5793f524b5d1d39fda662b96a2a","_corruptedFile":"C:\\Users\\caimb\\AppData\\Roaming\\Code\\clp\\dc7ba51c4efcfec965eaa07de065afd6.pt-br\\corrupted.info","_languagePackSupport":true}
+# environment
+VBOX_MSI_INSTALL_PATH = C:\Program Files\Oracle\VirtualBox\
+# environment
+ONEDRIVE = C:\Users\caimb\OneDrive
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.CPL
+# makefile (from `makefile', line 1)
+MAKEFILE_LIST :=  makefile
+# environment
+TMP = C:\Users\caimb\AppData\Local\Temp
+# environment
+PROGRAMW6432 = C:\Program Files
+# environment
+PROGRAMDATA = C:\ProgramData
+# environment
+VSCODE_CWD = C:\Users\caimb\Documents\CURSO ALURA\jogo_forca_project
+# environment
+PATH = C:\app\caimb\product\21c\dbhomeXE\bin;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files (x86)\AdoptOpenJDK\jdk-11.0.11.9-hotspot\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\PuTTY\;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Program Files (x86)\dotnet\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\sonar-scanner-4.6.2.2472-windows\bin\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\oracle\instantclient_19_12\;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Users\caimb\Downloads\chromedriver_win32\;C:\Program Files (x86)\GnuWin32\bin;C:\Users\caimb\.poetry\bin;C:\Users\caimb\.pyenv\pyenv-win\bin;C:\Users\caimb\.pyenv\pyenv-win\shims;C:\Users\caimb\AppData\Local\Microsoft\WindowsApps;C:\Users\caimb\AppData\Local\GitHubDesktop\bin;C:\Program Files (x86)\GitHub CLI\;C:\Users\caimb\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\caimb\AppData\Local\Programs\Hyper\resources\bin;C:\Users\caimb\.dotnet\tools;C:\Users\caimb\AppData\Local\Programs\mongosh\;C:\Users\caimb\AppData\Roaming\npm;C:\Program Files\heroku\bin;C:\Users\caimb\.deta\bin;C:\Users\caimb\AppData\Local\Microsoft\WindowsApps;C:\Users\caimb\AppData\Local\Programs\oh-my-posh\bin
+# environment
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# environment
+PROCESSOR_ARCHITECTURE = x86
+# environment
+USERPROFILE = C:\Users\caimb
+# environment
+CHOCOLATEYINSTALL = C:\ProgramData\chocolatey
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# environment
+LOGONSERVER = \\DESKTOP-4HE62H7
+# environment
+NUMBER_OF_PROCESSORS = 8
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# default
+.FEATURES := target-specific order-only second-expansion else-if archives
+# automatic
+%F = $(notdir $%)
+# environment
+POSH_THEMES_PATH = C:\Users\caimb\AppData\Local\Programs\oh-my-posh\themes
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_10636_QWKCYUDBAOLPMOCZ
+# environment
+COMPUTERNAME = DESKTOP-4HE62H7
+# environment
+PROGRAMFILES = C:\Program Files (x86)
+# environment
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+WT_SESSION = e99807ae-8ca2-43f2-9033-00503a5845ac
+# environment
+USERNAME = caimb
+# environment
+PUBLIC = C:\Users\Public
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+POWERLINE_COMMAND = oh-my-posh
+# environment
+VSCODE_CLI = 1
+# environment
+VSCODE_CODE_CACHE_PATH = C:\Users\caimb\AppData\Roaming\Code\CachedData\3b889b090b5ad5793f524b5d1d39fda662b96a2a
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# environment
+COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
+# environment
+CONDA_PROMPT_MODIFIER = False
+# environment
+ONEDRIVECONSUMER = C:\Users\caimb\OneDrive
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environment
+USERDOMAIN = DESKTOP-4HE62H7
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+POSH_THEME = C:\Users\caimb\AppData\Local\oh-my-posh\config.omp.json
+# environment
+JAVA_HOME = C:\Program Files (x86)\AdoptOpenJDK\jdk-11.0.11.9-hotspot\
+# default
+MAKE_VERSION := 3.81
+# makefile
+.DEFAULT_GOAL := Meu
+# environment
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+LOCALAPPDATA = C:\Users\caimb\AppData\Local
+# environment
+PSMODULEPATH = C:\Users\caimb\OneDrive\Documentos\WindowsPowerShell\Modules;C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\PowerShell\Modules\;
+# default
+MAKE_COMMAND := make.exe
+# environment
+PROCESSOR_ARCHITEW6432 = AMD64
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 142 Stepping 10, GenuineIntel
+# environment
+OS = Windows_NT
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\8aad5c5d879960ef787bee5e824d201d-1.69.2-main-sock
+# environment
+HOMEPATH = \Users\caimb
+# environment
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# environment
+PROMPT = $P$G
+# environment
+MFLAGS = -Rrqp
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+SYSTEMROOT = C:\WINDOWS
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+PYENV = C:\Users\caimb\.pyenv\pyenv-win
+# automatic
++F = $(notdir $+)
+# environment
+APPDATA = C:\Users\caimb\AppData\Roaming
+# environment
+POSH_GIT_ENABLED = False
+# environment
+TEMP = C:\Users\caimb\AppData\Local\Temp
+# environment
+WT_PROFILE_ID = {47ae045d-cdf9-5e05-b38a-97d1399bbfad}
+# environment
+COMSPEC = C:\WINDOWS\system32\cmd.exe
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# environment
+LC_ALL = C
+# environment
+PYENV_HOME = C:\Users\caimb\.pyenv\pyenv-win
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# environment
+SYSTEMDRIVE = C:
+# environment
+PROCESSOR_REVISION = 8e0a
+# environment
+MAKELEVEL := 0
+# environment
+LANG = C
+# environment
+PROCESSOR_LEVEL = 6
+# environment
+VSCODE_PID = 10636
+# environment
+USERDOMAIN_ROAMINGPROFILE = DESKTOP-4HE62H7
+# variable set hash-table stats:
+# Load=96/1024=9%, Rehash=0, Collisions=10/116=9%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# C:\Users\caimb\Downloads\chromedriver_win32\ (key C:/Users/caimb/Downloads/chromedriver_win32/, mtime 1658243535): 4 files, no impossibilities.
+# C:\Program Files (x86)\AdoptOpenJDK\jdk-11.0.11.9-hotspot\bin (key C:/Program Files (x86)/AdoptOpenJDK/jdk-11.0.11.9-hotspot/bin, mtime 1628523634): 132 files, no impossibilities.
+# C:\Program Files\heroku\bin (key C:/Program Files/heroku/bin, mtime 1638575154): 4 files, no impossibilities.
+# C:\Program Files\Common Files\Oracle\Java\javapath (key C:/Program Files/Common Files/Oracle/Java/javapath, mtime 1628550566): 6 files, no impossibilities.
+# C:\Users\caimb\.pyenv\pyenv-win\shims (key C:/Users/caimb/.pyenv/pyenv-win/shims, mtime 1656000782): 96 files, no impossibilities.
+# C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\ (key C:/Program Files (x86)/Intel/Intel(R) Management Engine Components/iCLS/, mtime 1630164291): 8 files, no impossibilities.
+# C:\Users\caimb\.poetry\bin (key C:/Users/caimb/.poetry/bin, mtime 1652914760): 4 files, no impossibilities.
+# C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\ (key C:/Program Files (x86)/Microsoft SQL Server/150/DTS/Binn/, mtime 1628539024): 4 files, no impossibilities.
+# C:\Program Files\Microsoft SQL Server\150\Tools\Binn\ (key C:/Program Files/Microsoft SQL Server/150/Tools/Binn/, mtime 1628539057): 14 files, no impossibilities.
+# C:\Windows\System32\WindowsPowerShell\v1.0\ (key C:/Windows/System32/WindowsPowerShell/v1.0/, mtime 1659581920): 30 files, no impossibilities.
+# C:\Users\caimb\.pyenv\pyenv-win\bin (key C:/Users/caimb/.pyenv/pyenv-win/bin, mtime 1628297592): 5 files, no impossibilities.
+# C:\Windows\System32\Wbem (key C:/Windows/System32/Wbem, mtime 1659581928): 154 files, no impossibilities.
+# . (key c:/Users/caimb/Documents/CURSO ALURA/jogo_forca_project, mtime 1659728652): 12 files, no impossibilities.
+# C:\Program Files\nodejs\ (key C:/Program Files/nodejs/, mtime 1634151821): 11 files, no impossibilities.
+# C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common (key C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common, mtime 1629997969): 10 files, no impossibilities.
+# C:\ProgramData\chocolatey\bin (key C:/ProgramData/chocolatey/bin, mtime 1658793401): 13 files, no impossibilities.
+# C:\Program Files\dotnet\ (key C:/Program Files/dotnet/, mtime 1628346278): 10 files, no impossibilities.
+# C:\Users\caimb\AppData\Local\Programs\Microsoft VS Code\bin (key C:/Users/caimb/AppData/Local/Programs/Microsoft VS Code/bin, mtime 1658178673): 4 files, no impossibilities.
+# C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\ (key C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/, mtime 1628539057): 6 files, no impossibilities.
+# C:\app\caimb\product\21c\dbhomeXE\bin (key C:/app/caimb/product/21c/dbhomeXE/bin, mtime 1652885169): 686 files, no impossibilities.
+# C:\Windows\System32\OpenSSH\: could not be stat'd.
+# C:\Users\caimb\AppData\Roaming\npm (key C:/Users/caimb/AppData/Roaming/npm, mtime 1654093172): 12 files, no impossibilities.
+# C:\Program Files\PuTTY\ (key C:/Program Files/PuTTY/, mtime 1628282553): 12 files, no impossibilities.
+# C:\sonar-scanner-4.6.2.2472-windows\bin\ (key C:/sonar-scanner-4.6.2.2472-windows/bin/, mtime 1628561418): 4 files, no impossibilities.
+# C:\Program Files (x86)\Common Files\Oracle\Java\javapath (key C:/Program Files (x86)/Common Files/Oracle/Java/javapath, mtime 1643926770): 5 files, no impossibilities.
+# C:\Users\caimb\.deta\bin (key C:/Users/caimb/.deta/bin, mtime 1651362199): 3 files, no impossibilities.
+# C:\Users\caimb\.dotnet\tools: could not be stat'd.
+# C:\Program Files\Intel\Intel(R) Management Engine Components\DAL (key C:/Program Files/Intel/Intel(R) Management Engine Components/DAL, mtime 1630164285): 4 files, no impossibilities.
+# C:\Windows (key C:/Windows, mtime 1659613742): 120 files, no impossibilities.
+# C:\Users\caimb\AppData\Local\Programs\oh-my-posh\bin (key C:/Users/caimb/AppData/Local/Programs/oh-my-posh/bin, mtime 1653262933): 3 files, no impossibilities.
+# C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\ (key C:/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/, mtime 1628539057): 12 files, no impossibilities.
+# C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\ (key C:/Program Files/Intel/Intel(R) Management Engine Components/iCLS/, mtime 1630164290): 11 files, no impossibilities.
+# C:\Users\caimb\AppData\Local\Programs\Hyper\resources\bin (key C:/Users/caimb/AppData/Local/Programs/Hyper/resources/bin, mtime 1627999242): 6 files, no impossibilities.
+# C:\Program Files\Azure Data Studio\bin (key C:/Program Files/Azure Data Studio/bin, mtime 1628540259): 4 files, no impossibilities.
+# C:\Program Files\Microsoft SQL Server\150\DTS\Binn\ (key C:/Program Files/Microsoft SQL Server/150/DTS/Binn/, mtime 1628539057): 47 files, no impossibilities.
+# C:\Users\caimb\AppData\Local\GitHubDesktop\bin (key C:/Users/caimb/AppData/Local/GitHubDesktop/bin, mtime 1628282489): 4 files, no impossibilities.
+# C:\Users\caimb\AppData\Local\Microsoft\WindowsApps (key C:/Users/caimb/AppData/Local/Microsoft/WindowsApps, mtime 1659656425): 35 files, no impossibilities.
+# C:\Program Files (x86)\dotnet\ (key C:/Program Files (x86)/dotnet/, mtime 1628518928): 8 files, no impossibilities.
+# C:\Program Files (x86)\GitHub CLI\ (key C:/Program Files (x86)/GitHub CLI/, mtime 1628282537): 3 files, no impossibilities.
+# C:\oracle\instantclient_19_12\ (key C:/oracle/instantclient_19_12/, mtime 1626927272): 33 files, no impossibilities.
+# C:\Program Files\Git\cmd (key C:/Program Files/Git/cmd, mtime 1628296482): 8 files, no impossibilities.
+# C:\Windows\system32 (key C:/Windows/system32, mtime 1659700874): 3040 files, no impossibilities.
+# C:\Users\caimb\AppData\Local\Programs\mongosh\ (key C:/Users/caimb/AppData/Local/Programs/mongosh/, mtime 1631736753): 8 files, no impossibilities.
+# C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR (key C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR, mtime 1629997991): 5 files, no impossibilities.
+# C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL (key C:/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL, mtime 1630164285): 10 files, no impossibilities.
+# C:\Program Files (x86)\GnuWin32\bin (key C:/Program Files (x86)/GnuWin32/bin, mtime 1658793487): 5 files, no impossibilities.
+
+# 4615 files, no impossibilities in 46 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+all:
+#  Command-line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+.PHONY: install format lint test sec
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+format:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 9):
+	@blue .
+	@isort .
+	
+
+test:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 17):
+	@pytest -v
+	
+
+makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-08-05 16:42:28
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+sec:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 19):
+	@pip-audit
+	
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+Meu:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+lint:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 12):
+	@blue .
+	@isort .
+	@prospector --no-autodetect
+	@pylint .
+	
+
+install:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 7):
+	@poetry install
+	
+
+# files hash-table stats:
+# Load=11/1024=1%, Rehash=0, Collisions=0/28=0%
+# VPATH Search Paths
+
+# No `vpath' search paths.
+
+# No general (`VPATH' variable) search path.
+
+# # of strings in strcache: 1
+# # of strcache buffers: 1
+# strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
+# strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
+
+# Finished Make data base on Fri Aug 05 16:47:03 2022
+
+ 
+make.exe: *** No rule to make target `all'.  Stop.
+

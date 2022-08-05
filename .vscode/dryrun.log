@@ -1,0 +1,5 @@
+make.exe --dry-run --always-make --keep-going --print-directory
+make.exe: Entering directory `c:/Users/caimb/Documents/CURSO ALURA/jogo_forca_project'
+make.exe: Nothing to be done for `Meu'.
+make.exe: Leaving directory `c:/Users/caimb/Documents/CURSO ALURA/jogo_forca_project'
+ 

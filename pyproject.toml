@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "jogo-forca-project"
+version = "0.1.0"
+description = ""
+authors = ["onezer00 <joao.batista@spassu.com-at-702413981770>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.28.1"
+blue = "^0.9.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.0.0"
+isort = "^5.10.1"
+coverage = "^6.4.2"
+pytest-cov = "^3.0.0"
+pylint = "^2.14.5"
+prospector = "^1.7.7"
+pip-audit = "^2.4.3"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
