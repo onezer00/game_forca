@@ -41,7 +41,7 @@ class GameForca:
         """
         Verifica se a letra já foi digitada e retorna True ou False
         """
-        if len(letra) > 1 and letra not in self.palavra:
+        if len(letra) > 1 or letra not in self.palavra:
             print('Errou ou digitou mais de uma letra!?')
             self.chances -= 1
             return False
